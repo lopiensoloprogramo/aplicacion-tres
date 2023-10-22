@@ -1,0 +1,83 @@
+
+h1{
+    margin-top: 10px;
+}
+td{
+    width: 40vw;
+   
+}  
+tr{
+    margin: auto;
+    padding: 1rem;
+   
+}
+.conteiner{
+    width: 100%;
+    
+}
+.generales-columnas{
+
+
+    border-bottom: 4px solid green;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.generales-columnas div{
+    
+    width: 100%;
+    
+}
+
+
+.generales-filas{
+ display: flex;
+ text-align: center;
+ color: gray;
+}
+.generales-filas div{
+  
+    width: 100%;
+
+}
+
+
+.table-titulos{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-left: 2rem;
+    background-color:#fff;
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+}
+.table-respuesta td{
+
+    color: gray;
+   
+    padding-left: 2rem;
+    text-align: left;
+    padding:0.5rem;
+   
+    
+}
+
+
+
+.history-day{
+
+    width: 40vw;
+    padding: 1rem;
+    margin-top:10px;
+    margin-bottom: 10px;
+ 
+}
+
+.history-day h2{
+    border-left: 5px solid green;
+    
+}
+.resaltar{
+    color: darkorange;
+}
