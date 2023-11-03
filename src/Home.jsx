@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import './Home.css'
 const Home=()=>{
 
 
@@ -7,9 +7,13 @@ const Home=()=>{
     return(
 
         <>
-        <h1>Hola, Bienvenido a JCMARKET</h1>
-        <p>Conoce las 100 criptomonedas más populares</p>
-        <NavLink to='/criptomonedas'>Ver Criptomonedas</NavLink>
+        <div className="bienvenido">
+                <h2>Bienvenido a JCMARKET</h2>
+                <p>Conoce las 100 criptomonedas más populares...</p>
+                <div className="ver-mas"><NavLink to='/criptomonedas'>Ver Criptomonedas</NavLink></div>
+            </div> 
+       
+        
         </>
     )
 }

@@ -1,7 +1,5 @@
 
-h1{
-    margin-top: 10px;
-}
+
 td{
     width: 40vw;
    
@@ -15,14 +13,19 @@ tr{
     width: 100%;
     
 }
+
+.titulo-cripto{
+    margin-top: 2rem;
+}
 .generales-columnas{
 
 
     border-bottom: 4px solid green;
     display: flex;
-    text-align: center;
     margin: auto;
     margin-bottom: 1rem;
+    margin-top: 2rem;
+    
 }
 .generales-columnas div{
     

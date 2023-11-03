@@ -1,0 +1,24 @@
+.bienvenido{
+    text-align: center;
+    width: 100vw;
+    font-family:monospace;
+    margin-top: 1rem;
+}
+
+
+.ver-mas{
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #000;
+    width: 15vw;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+
+}
+
+.ver-mas a{
+    text-decoration: none;
+}

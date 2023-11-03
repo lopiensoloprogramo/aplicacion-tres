@@ -1,0 +1,44 @@
+
+.conteiner-usuario{
+    display: flex;
+    margin: auto;
+    border: 1px solid gray;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+.perfil{
+ 
+    width:40%;
+    
+}
+.foto, .name{
+   margin-top: 10px;
+   padding: 1rem;
+   border: 1px solid gray;
+   border-radius: 5px;
+   text-align: center;
+   
+
+}
+.informacion{
+    padding: 1rem;
+    border: 1px solid gray;
+    width:60%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.informacion{
+    margin-left: 2%;
+}
+
+#avatar{
+    width: 80%;
+}
+
+.informacion p{
+    margin-top: 0.5rem;
+}
